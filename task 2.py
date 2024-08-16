@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 
 
-url = 'https://en.wikipedia.org/wiki/Elon_Musk'  # Replace with the URL of the website you want to scrape
+url = 'https://www.w3schools.com/html/default.asp'  # Replace with the URL of the website you want to scrape
 response = requests.get(url)
 
 # Step 4: Parse the HTML content
